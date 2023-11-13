@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://images.squarespace-cdn.com/content/v1/5f1b0ff6550a4d7d70797c8a/4a6dd220-a587-4e66-89a6-9bd3a3164584/4.jpg?format\u003d80w",
+    "link": "https://www.strtgy.ai/",
+    "text": "STRTGY"
+  },
+  "text": {
+    "more": "El análisis semántico de red es un enfoque utilizado para comprender y representar significados subyacentes en un texto o un conjunto de textos. \n\nUtiliza la teoría de redes para mapear relaciones entre conceptos, palabras y frases dentro de un corpus de datos lingüísticos.\n\nEn lugar de simplemente contar palabras o buscar patrones de frecuencia, se centra en cómo las ideas están interconectadas, lo que permite revelar la estructura y la jerarquía de los conceptos dentro del texto.\n\nEste tipo de análisis puede ayudar a identificar temas centrales, tendencias en la comunicación y la organización del conocimiento en áreas como la investigación académica, el marketing y la inteligencia artificial.",
+    "intro": "La cerveza en México",
+    "title": "Cervecería Colima"
+  },
+  "legend": {
+    "edgeLabel": "Relación",
+    "colorLabel": "Conversación",
+    "nodeLabel": "Palabras clave"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 15,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 24
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 50
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
